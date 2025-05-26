@@ -2,6 +2,8 @@ import LessonOne from "@/components/aula-1";
 import LessonTwo from "@/components/aula-2";
 import LessonTree from "@/components/aula-3";
 import LessonFour from "@/components/aula-4";
+import LessonFive from "@/components/aula-5";
+import TodoList from "@/components/aula-pratica";
 import { useBearStore } from "@/store/immer-devtools-store";
 
 const LearningZustend = () => {
@@ -16,6 +18,8 @@ const LearningZustend = () => {
       <LessonTwo />
       <LessonTree />
       <LessonFour />
+      <LessonFive />
+      <TodoList />
     </div>
   );
 };
